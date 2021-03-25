@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class No_4 {
     public static void main(String[]args){
         int i,j,m,n;
-        int matriks[][]= new int[2][3];
-        int transpose[][]= new int [3][2];
+        int matriks[][]= new int[10][10];
+        int transpose[][]= new int [10][10];
         Scanner scan = new Scanner(System.in);
         m = 2;
         n = 3;
