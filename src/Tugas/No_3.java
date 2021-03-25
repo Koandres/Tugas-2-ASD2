@@ -10,12 +10,12 @@ public class No_3 {
             {2,5},
             {6,3}
         };
-        if(A[0].length == B.length){
-            int[][] C= new int[A[0].length][B.length];
-            for(int i=0;i<A[0].length;i++){
-                for(int j=0;j<B.length;j++){
-                    for(int k=0;k<A.length;k++){
-                        C[i][j]+= A[k][i]*B[j][k];
+        if(A.length == B[0].length){
+            int[][] C= new int[A.length][B[0].length];
+            for(int i=0;i<A.length;i++){
+                for(int j=0;j<B[0].length;j++){
+                    for(int k=0;k<A[0].length;k++){
+                        C[i][j]+= A[i][k]*B[k][j];
                     }
                 }
             }
